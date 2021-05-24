@@ -91,6 +91,8 @@ h1{
     margin: 10px;
     border-radius: 10px;
     background-color:hsl(300, 24%, 96%);
+    color:hsl(300, 43%, 22%);
+    font-weight:500;
 
 }
 
