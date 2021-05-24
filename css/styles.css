@@ -215,8 +215,7 @@ h3{
     .review,.report-guru,.best-tech{
         align-self: center;
         flex-direction: column;
-        padding: 5px 20px;
-        text-align: center;
+        padding: 5px auto;
         width: 70%;
     }
 
