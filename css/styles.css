@@ -1,6 +1,7 @@
 body{
     font-family: 'Spartan', sans-serif;
     display: flex;
+    min-height: 730px;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
@@ -9,8 +10,11 @@ body{
 .main-container{
     display: flex;
     justify-content: center;
+    min-height:700px;
+    max-width: 1440px;
+    gap: 20px;
+    padding:12px 30px;
     align-items: center;
-    height: 800px;
     flex-direction: column;
     border-radius: 10px;
     background-color:white;
@@ -42,19 +46,17 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 30px;
 }
 
 
 h1{
     font-size: 40px;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .heading{
-    padding: 10px;   
     width:40%;
-    padding-left: 30px;
 }
 
 .e{
@@ -65,7 +67,6 @@ h1{
 
 .rating{
     width: 60%;
-    margin: 20px;
 }
 
 .intro{
@@ -87,12 +88,12 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px 30px ;
-    margin: 10px;
+    margin-bottom: 10px;
+    padding: 5px 30px;
     border-radius: 10px;
     background-color:hsl(300, 24%, 96%);
-    color:hsl(300, 43%, 22%);
-    font-weight:500;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
 
 }
 
@@ -116,8 +117,9 @@ h1{
 .testimonials{
     display: flex;
     flex-direction: row;
-    margin: 30px;
-    height: 35%;
+    justify-content: space-between;
+    min-height: 270px;
+    gap: 5px;
 }
 
 
@@ -125,7 +127,6 @@ h1{
     padding: 30px;
     width: 25%;
     color:hsl(0, 0%, 100%);
-    margin: 10px 20px;
     background-color: hsl(300, 43%, 22%);
     border-radius:10px;
     font-size: 12px;
@@ -179,10 +180,12 @@ h3{
 
     .main-container{
         height: auto;
+        max-width: 500px;
     }
 
     .intro{
         flex-direction: column;
+        align-items: center;
     }
 
     .testimonials{
@@ -197,10 +200,9 @@ h3{
     }
 
     .rating,.heading{
-        width: 90%;
+        width: 100%;
     }
     .heading{
-        margin: 20px;
         padding-left: 5px;
         align-items: center;
     }
@@ -215,6 +217,7 @@ h3{
         flex-direction: column;
         padding: 5px 20px;
         text-align: center;
+        width: 70%;
     }
 
     .star{
