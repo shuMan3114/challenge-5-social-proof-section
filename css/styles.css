@@ -1,0 +1,222 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0 8px 16px 0 rgba(19, 16, 16, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+}
+
+.icon-1{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    left: 0px;
+}
+
+.icon-2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    padding: 10px;   
+    width:40%;
+    padding-left: 30px;
+}
+
+.e{
+    padding-right: 20px;
+    font-size: 15px;
+    color:hsl(303, 10%, 53%);
+}
+
+.rating{
+    width: 60%;
+    margin: 20px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    float: left;
+    margin-right: 10px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+}
+
+.best-tech,.review,.report-guru{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 30px ;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:hsl(300, 24%, 96%);
+
+}
+
+.review{
+    align-self: flex-start;
+}
+
+.best-tech{
+    align-self: flex-end;
+}
+
+.report-guru{
+    align-self: center;
+}
+
+.s{
+    padding-left: 40px;
+}
+
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    height: 35%;
+}
+
+
+.c-smith,.a-wallace,.i-roberts{
+    padding: 30px;
+    width: 25%;
+    color:hsl(0, 0%, 100%);
+    margin: 10px 20px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius:10px;
+    font-size: 12px;
+}
+
+
+h3{
+    margin: 5px auto 5px 35px;
+}
+
+.vb{
+    margin:10px;
+    color: hsl(333, 80%, 67%);
+}
+
+.c-smith{
+    align-self: flex-start;
+}
+
+.i-roberts{
+    align-self: center;
+}
+
+.a-wallace{
+    align-self: flex-end;
+}
+
+.t-monial{
+    margin-top: 30px;
+}
+
+.image{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.t-monial-2{
+    padding-right: 12px;
+}
+
+.t-monial-3{
+    padding-right: 20px;
+}
+
+
+@media screen and (max-width: 800px){
+    body{
+        height: auto;
+        width: auto;
+    }
+
+    .main-container{
+        height: auto;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+
+    .testimonials{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-smith,.i-roberts,.a-wallace,.report-guru,.best-tech,.review{
+        align-self: center;
+        width: 70%;
+    }
+
+    .rating,.heading{
+        width: 90%;
+    }
+    .heading{
+        margin: 20px;
+        padding-left: 5px;
+        align-items: center;
+    }
+
+    .intro{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .review,.report-guru,.best-tech{
+        align-self: center;
+        flex-direction: column;
+        padding: 5px 20px;
+        text-align: center;
+    }
+
+    .star{
+        margin:4px auto;
+    }
+
+}
